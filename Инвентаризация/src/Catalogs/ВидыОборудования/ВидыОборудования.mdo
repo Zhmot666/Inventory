@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="148e6e67-8872-4ac9-b860-bd4d782a6ec1">
+  <producedTypes>
+    <objectType typeId="abc14ecf-2ca3-49c0-9efd-6d9167a64037" valueTypeId="dae26f7d-c9d8-4239-ab4d-9dc48a1f0057"/>
+    <refType typeId="23c77368-261b-41a4-84e9-47c07c9e8fb2" valueTypeId="87174c87-93b3-4f3e-a3e5-2473c9c0e5b6"/>
+    <selectionType typeId="142becdd-16ac-4348-bfac-eeef3f73f2aa" valueTypeId="4df7bae7-a20f-4e99-9bec-e57849671a36"/>
+    <listType typeId="6cf1a93b-7855-44ec-892f-e8c6884cd5af" valueTypeId="5dadfce2-41ef-4eb9-94f8-32ebf27e772b"/>
+    <managerType typeId="aa4d7bc3-7ffb-4003-a0d0-28c4efc174ce" valueTypeId="c81cf830-bb8c-495f-9983-dbfdff650e8e"/>
+  </producedTypes>
+  <name>ВидыОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды оборудования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыОборудования.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыОборудования.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид оборудования</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="7e7b8f1e-1319-4a57-9244-6ad821f39662">
+      <name>Монитор</name>
+      <description>Монитор</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="c3abedd3-e499-4ee1-88c9-c1fbc078aa2c">
+      <name>СистемныйБлок</name>
+      <description>Системный блок</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="5c024d6c-9674-4b1c-abee-8aeaeceb143a">
+      <name>КМА</name>
+      <description>КМА (принтеры, МФУ)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="c350a936-6914-4153-887d-f459c6fb3051">
+      <name>Ноутбук</name>
+      <description>Ноутбук</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

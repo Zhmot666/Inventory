@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e24c3fec-7482-44ef-95b1-06e721670321">
+  <producedTypes>
+    <objectType typeId="9dba1a23-fd33-4320-8d5b-5ea0cbb613d8" valueTypeId="d3b4b51b-a37a-41fe-8bbf-a49edb1a1a8d"/>
+    <refType typeId="dc648d24-aa56-40ec-82b5-739aa53090c9" valueTypeId="4e69bca1-ffcc-43fa-8363-7c869e486387"/>
+    <selectionType typeId="505d0bb6-340e-49a9-8f48-6781abcb8fec" valueTypeId="6cebfe5b-eed7-41d6-8e62-63f89b963f7c"/>
+    <listType typeId="fa40b615-c405-49a2-8291-2f88ca851057" valueTypeId="cf57d8c3-84ea-4e55-9aab-4ffb8ffdb954"/>
+    <managerType typeId="28438154-fc24-4514-806b-3b943c9ac575" valueTypeId="fb4b1bf1-1e13-4ec2-a933-977408a3f66b"/>
+  </producedTypes>
+  <name>ПоступлениеОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступление оборудования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПоступлениеОборудования.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Приход</value>
+  </objectPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>InformationRegister.ДвижениеОборудования</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="0e9b44d1-3945-47df-a0ab-e80e455c33da">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="77027e46-4d0d-4fa2-b470-4f630e0ef7c0">
+    <producedTypes>
+      <objectType typeId="d3180608-a26b-4c28-a361-554ff2152177" valueTypeId="189a5323-15dd-49d5-a708-2b7fc856d47b"/>
+      <rowType typeId="6adb7284-1b0b-4332-a1d5-336e93d3c248" valueTypeId="c55b3cfa-48d9-4618-ba8a-28deebabed50"/>
+    </producedTypes>
+    <name>СписокОборудования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список оборудования</value>
+    </synonym>
+    <attributes uuid="8267eff0-794f-43f9-87e4-f7764a9306fa">
+      <name>Оборудование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Оборудование</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Оборудование</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

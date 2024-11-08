@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f08abb14-0030-47bf-a0be-877c5e2458a0">
+  <producedTypes>
+    <objectType typeId="5b7b5491-1d2a-48ac-98ce-0068aaebe784" valueTypeId="e139ff62-d430-4166-969e-aa6492322bb6"/>
+    <refType typeId="4f5101fb-51bf-4c36-bb2f-143a785cd376" valueTypeId="3a70c8e7-c1d9-4a06-8427-7b1501326bb3"/>
+    <selectionType typeId="ca6e8906-c48c-4013-8578-0653f00b5e0f" valueTypeId="a20ecfd8-caf5-418f-926f-cdc7e549229a"/>
+    <listType typeId="a2915552-a169-487c-9c43-29d68363ec3a" valueTypeId="170950ea-ca80-40e1-b30a-29e253bb63dd"/>
+    <managerType typeId="5704f065-6736-44bc-a6fc-fc21ba3b7f71" valueTypeId="7bf9b82c-7072-4696-b864-ea1143fc2d6e"/>
+  </producedTypes>
+  <name>Картриджи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Картриджи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Картриджи.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Картриджи.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Картридж</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="609421ab-aec5-4513-8ac3-21ae77c1319f">
+    <producedTypes>
+      <objectType typeId="e41bbe86-642d-462b-8d60-a7f5b7941b60" valueTypeId="d69deb34-b03e-47b8-b33e-883cfa1cb216"/>
+      <rowType typeId="57f1b78f-43e5-43f3-89ce-d15ad974f32f" valueTypeId="534883fb-b078-487b-9d28-460c2df34333"/>
+    </producedTypes>
+    <name>СовместимыеКартриджи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Совместимые картриджи</value>
+    </synonym>
+    <attributes uuid="fc8ecea9-e641-48e0-b88b-55484663c1b0">
+      <name>СовместимыйКартридж</name>
+      <synonym>
+        <key>ru</key>
+        <value>Совместимый картридж</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Картриджи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e120aeda-2c20-4ec7-8dfe-d9fef05a71de">
+  <producedTypes>
+    <objectType typeId="9e4fb7a4-0a43-4cce-a281-addea8141d9a" valueTypeId="dd40183f-242b-4b2b-a344-465af2401c47"/>
+    <refType typeId="e9749b39-8714-47ae-b6ab-d5669a46b3bd" valueTypeId="cd04da38-846c-433b-b337-f6ba3e667cd3"/>
+    <selectionType typeId="6c01fe27-8c26-4e1d-beaa-defcc36f62a0" valueTypeId="5d9ee8ca-de60-4674-88ec-bf2c7435fcbb"/>
+    <listType typeId="065114fa-9b01-4022-9f2b-f69c0793baf9" valueTypeId="4ec899d4-08f5-4267-b8da-fdd43c8d8cc5"/>
+    <managerType typeId="9b0d88f4-d775-4413-889f-91fe2497c79b" valueTypeId="11636884-4e49-493e-b3a3-780bbcd8b162"/>
+  </producedTypes>
+  <name>Оборудование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оборудование</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Оборудование.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Оборудование.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Номенклатурная еденица</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="71911e1b-6e7d-4bdb-80c0-bfc2c31492a6">
+    <name>ВидОборудования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид оборудования</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыОборудования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="532ca5c9-249b-48ef-aae2-8a7339003a83">
+    <name>ИнвентариныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инвентариный номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="92e738f8-08df-4626-804d-1dd7fdc9b618">
+    <name>ЗаводскойНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заводской (серийный) номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="47c6e33a-0d4f-4caf-8fb3-653b89775b1b">
+    <name>АйПиАдрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>IP адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3d2cd6b5-b59a-4050-831f-813264cc4351">
+    <name>СетевоеИмя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сетевое имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4ca34c21-4864-466f-a8a1-5c30620ffd9b">
+    <name>Картридж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картридж</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Картриджи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

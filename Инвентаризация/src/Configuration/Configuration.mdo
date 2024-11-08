@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f9a391f-a7fb-4024-94fa-a9eb2cd0dbb5">
+  <name>Инвентаризация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инвентаризация</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="31059fdd-523e-45bd-9739-48edb0cbd1c5"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="daabc6fd-def4-4ae1-9188-595b3a96e49b"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="9d253d28-c651-4984-8c9b-1a3936efa4a1"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="b3cce2b9-1bb6-448a-83b9-382570082a39"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="a9dbfd20-9656-41a8-a175-426394b5dec7"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="ec4e0193-d86d-4dbb-90e4-afb0be6bc420"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="495119fd-681d-4b64-ad88-6c27e1fadf54"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.22</compatibilityMode>
+  <languages uuid="9a67cb60-9401-4efb-83fb-2a3bdbd69ae3">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Администрирование</subsystems>
+  <subsystems>Subsystem.Пользователь</subsystems>
+  <roles>Role.АдминистраторСистемы</roles>
+  <roles>Role.ЗапускВебКлиента</roles>
+  <roles>Role.ЗапускМобильногоКлиента</roles>
+  <roles>Role.ЗапускТонкогоКлиента</roles>
+  <roles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</roles>
+  <roles>Role.МобильныйКлиент</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.Пользователь</roles>
+  <roles>Role.СохранениеДанныхПользователя</roles>
+  <commonAttributes>CommonAttribute.Комментарий</commonAttributes>
+  <catalogs>Catalog.ВидыОборудования</catalogs>
+  <catalogs>Catalog.Кабинеты</catalogs>
+  <catalogs>Catalog.Картриджи</catalogs>
+  <catalogs>Catalog.Оборудование</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <documents>Document.ПоступлениеОборудования</documents>
+  <informationRegisters>InformationRegister.ДвижениеОборудования</informationRegisters>
+</mdclass:Configuration>

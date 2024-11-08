@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46b84024-4eab-4b54-885d-6012b421abd8">
+  <name>Администрирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.ДвижениеОборудования</content>
+  <content>Document.ПоступлениеОборудования</content>
+  <content>CommonAttribute.Комментарий</content>
+</mdclass:Subsystem>
